@@ -9,5 +9,5 @@ step-1
     give two integer input
     get the Answer.
   
-Happy Coding :)
+Happy Coding:)
   
