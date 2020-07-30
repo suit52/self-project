@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 	pb "self-project/calculator/pkg/proto"
-
+	"fmt"
 	"google.golang.org/grpc"
 )
 
@@ -15,6 +15,8 @@ type server struct{}
 // SayHello implements helloworld.GreeterServer
 
 func main() {
+	
+	fmt.Println("program of calculator")
 	lis, err := net.Listen("tcp", ":8080")
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
