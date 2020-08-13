@@ -1,7 +1,6 @@
 // obj is structure for required json
 var obj Photo
 
-resposne is of type []byte
 	if err := json.Unmarshal(response, &obj); err != nil {
 		log.Fatal(err)
 	}
