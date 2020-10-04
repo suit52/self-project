@@ -1,0 +1,6 @@
+// obj is structure for required json
+var obj Photo
+
+	if err := json.Unmarshal(response, &obj); err != nil {
+		log.Fatal(err)
+	}
